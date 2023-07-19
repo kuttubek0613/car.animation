@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dor {
+    width: auto;
+    height: 690px;
+    background-image: url(https://top-fon.com/uploads/posts/2023-01/1674853204_top-fon-com-p-fon-dlya-prezentatsii-deti-i-doroga-192.jpg);
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: repeat;
+    overflow: hidden;
+ 
+}
+
+
+.car {
+    width: 250px;
+    height: 200px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4312/4312414.png);
+    background-size: cover;
+    position: relative;
+    top: 57%;
+    left: 400px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    animation: dor 6s linear infinite;
+    transition: 2s;
+}
+
+
+.cart img {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 275px;
+    right: -200px;
+    z-index: 1;
+    animation: imm 8s linear infinite;
+    transition: 5s;
+}
+
+.sun {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 0 0 5px 10px yellowgreen;
+    position: relative;
+    top: -55%;
+    animation: sun 10s linear infinite;
+} 
+
+@keyframes sun {
+    0%{
+        left: 0;
+    }
+    25%{
+        left: 300px;
+        
+    }
+
+    50%{
+        left: 600px;
+    }
+
+    75%{
+        left: 900px;
+    }
+
+    100%{
+        left: 1400px;
+    }
+}
+
+@keyframes imm {
+    0% {
+        left: 1500px;
+    }
+
+    100%{
+        left: -300px;
+    }
+}
+
+@keyframes dor {
+    0%{
+        left: -200px;
+    }
+
+    100%{
+        left: 1500px;
+    }
+}
+
+
+@media (max-width:501px){
+    .dor {
+    width: 500px;
+    height: 200px;
+    background-image: url(https://top-fon.com/uploads/posts/2023-01/1674853204_top-fon-com-p-fon-dlya-prezentatsii-deti-i-doroga-192.jpg);
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+.car {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4312/4312414.png);
+    background-size: cover;
+    top: 50%;
+}
+
+.cart img {
+    width: 100px;
+    height: 100px;
+    top: 17px;
+}
+
+.sun {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 0 0 10px 5px yellowgreen;
+    position: relative;
+    top: -95%;
+    animation: sun 10s linear infinite;
+} 
+
+@keyframes dor {
+    0%{
+        left: -150px;
+    }
+
+    100%{
+        left: 500px;
+    }
+}
+
+@keyframes imm {
+    0% {
+        left: 620px;
+    }
+
+    100%{
+        left: -100px;
+    }
+}
+
+@keyframes sun {
+    0%{
+        left: 0;
+    }
+    25%{
+        left: 140px;
+        
+    }
+
+    50%{
+        left: 260px;
+    }
+
+    75%{
+        left: 380px;
+    }
+
+    100%{
+        left: 600px;
+    }
+}
+
+}
